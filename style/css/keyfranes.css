@@ -1,0 +1,35 @@
+/* @keyframes rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes levitation {
+    0%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+} */
+
+@keyframes vibrate {
+    0%{
+        transform: rotate(9deg);
+    }
+    50%{
+        transform: rotate(-9deg);
+    }
+    100%{
+        transform: rotate(9deg);
+    }
+}
