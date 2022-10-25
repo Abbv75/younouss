@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /api/
+Disallow: /class/
+Disallow: /data/
+Disallow: /include/
+Disallow: /lib/
+Disallow: /res/
+Disallow: /script/
+Disallow: /style/
+Disallow: /test/
+Noindex: /api/
+Noindex: /class/
+Noindex: /data/
+Noindex: /include/
+Noindex: /lib/
+Noindex: /res/
+Noindex: /script/
+Noindex: /style/
+Noindex: /test/
+
+Sitemap: https://younouss.ml/sitemap.xml

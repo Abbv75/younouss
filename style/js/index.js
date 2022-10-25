@@ -49,6 +49,8 @@ $('#message').change(function(){
 })
 
 $('#envoyer').click(function(){
+    $('#envoyer').css('background', 'grey');
+    $('#envoyer').text('Sending');
     $.ajax({
         url:'script/envoyer_mail.php',
         type:'POST',
@@ -67,6 +69,8 @@ $('#envoyer').click(function(){
 
         }
     })
+    $('#envoyer').css('background', 'orange');
+    $('#envoyer').text('Envoyer');
     
     return false;
 })
