@@ -1,4 +1,4 @@
-/* @keyframes rotation {
+@keyframes rotation {
     0%{
         transform: rotate(0deg);
     }
@@ -20,7 +20,7 @@
     100%{
         transform: translateY(10px);
     }
-} */
+}
 
 @keyframes vibrate {
     0%{

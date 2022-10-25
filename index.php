@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="lib/css/fontawesome/css/all.css">
     <link rel="stylesheet" href="style/css/index.css">
     <link rel="stylesheet" href="style/css/contact.css">
-    <!-- <link rel="stylesheet" href="style/css/keyfranes.css"> -->
+    <link rel="stylesheet" href="style/css/keyfranes.css">
     <script src="lib/js/jquery-3.3.1.min.js"></script>
-    <title>Younouss Boré developpeur Deb|Mobile|Desktop|Fullstack|Gaming</title>
+    <title>Younouss Boré developpeur Web|Mobile|Desktop|Fullstack</title>
 </head>
 <body class="day_mode">
     
@@ -81,7 +81,7 @@
             </div>
 
             <div class="younouss_img">
-                <img src="res/images/younouss.png" alt="">
+                <img src="res/images/younouss.png" alt="Photo de Younouss Boré">
             </div>
         </div>
 
@@ -250,7 +250,7 @@
 
             <div>
                 <div class="img_zone">
-                    <img src="res/images/projet/projet1.png" alt="">
+                    <img src="res/images/projet/projet1.png" alt="interface du site Ma maison 223">
                 </div>
                 <h2 class="titre">
                     Ma maison 223
@@ -265,7 +265,7 @@
             
             <div>
                 <div class="img_zone">
-                    <img src="res/images/projet/projet2.png" alt="">
+                    <img src="res/images/projet/projet2.png" alt="interface du site 223 market">
                 </div>
                 <h2 class="titre">
                     223 Market
@@ -282,7 +282,7 @@
             
             <div>
                 <div class="img_zone">
-                    <img src="res/images/projet/projet3.png" alt="">
+                    <img src="res/images/projet/projet3.png" alt="interface du site Mali mariage">
                 </div>
                 <h2 class="titre">
                     Mali mariage
@@ -297,7 +297,7 @@
             
             <div>
                 <div class="img_zone">
-                    <img src="res/images/projet/projet4.png" alt="">
+                    <img src="res/images/projet/projet4.png" alt="interface du site golira">
                 </div>
                 <h2 class="titre">
                     Golira
@@ -309,7 +309,7 @@
             
             <div>
                 <div class="img_zone">
-                    <img src="res/images/projet/projet5.png" alt="">
+                    <img src="res/images/projet/projet5.png" alt="interface du site GBS Sarl">
                 </div>
                 <h2 class="titre">
                     GBS Sarl
@@ -321,7 +321,7 @@
             
             <div>
                 <div class="img_zone">
-                    <img src="res/images/projet/projet6.png" alt="">
+                    <img src="res/images/projet/projet6.png" alt="interface du site Ml Sugu">
                 </div>
                 <h2 class="titre">
                     Ml Sugu
@@ -333,7 +333,7 @@
             
             <div>
                 <div class="img_zone">
-                    <img src="res/images/projet/projet7.png" alt="">
+                    <img src="res/images/projet/projet7.png" alt="interface du site 223 Event">
                 </div>
                 <h2 class="titre">
                     223 Event
@@ -345,7 +345,7 @@
             
             <div>
                 <div class="img_zone">
-                    <img src="res/images/projet/projet8.png" alt="">
+                    <img src="res/images/projet/projet8.png" alt="interface du site The bro's market">
                 </div>
                 <h2 class="titre">
                     The bro's Market
