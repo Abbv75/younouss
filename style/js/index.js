@@ -84,3 +84,18 @@ function setActiveNavElement(e){
     $('.elNav').removeClass('active');
     $('.elNav').eq(e).addClass('active');
 }
+
+// pour fermer la description des projet
+
+$("#projet .titre").click(function (e) { 
+    if(
+        $(this).attr("data-show") == "true"
+    ){
+        $(this).parent().children(".contenue").slideUp();
+        $(this).attr("data-show", "false")
+    }
+    else{
+        $(this).parent().children(".contenue").slideDown();
+        $(this).attr("data-show", "true")
+    }
+});

@@ -252,8 +252,11 @@
                 <div class="img_zone">
                     <img src="res/images/projet/projet1.png" alt="interface du site Ma maison 223">
                 </div>
-                <h2 class="titre">
+                <h2 class="titre" data-show="true">
                     Ma maison 223
+                    <span>
+                        <i class="fa fa-arrow-right"></i>
+                    </span>
                 </h2>
                 <p class="contenue">
                     Une platforme pour la vente, l'achat, la location de maisons, appartements et térrains dans tout le Mali.
@@ -262,13 +265,34 @@
                     <a href="https://mamaison223.ml">mamaison223.ml</a>
                 </p>
             </div>
+
+            <div>
+                <div class="img_zone">
+                    <img src="res/images/projet/easymanagment.png" alt="interface de easy managment">
+                </div>
+                <h2 class="titre"  data-show="true">
+                    Easy Managment
+                    <span>
+                        <i class="fa fa-arrow-right"></i>
+                    </span>
+                </h2>
+                <p class="contenue">
+                    Une platfrome De gestions de stock pouvant gerer toute taille de boutique.
+                </p>
+                <p align="center">
+                    <a href="https://easymanagment.com/">easymanagment.com</a>
+                </p>
+            </div>
             
             <div>
                 <div class="img_zone">
                     <img src="res/images/projet/projet2.png" alt="interface du site 223 market">
                 </div>
-                <h2 class="titre">
+                <h2 class="titre"  data-show="true">
                     223 Market
+                    <span>
+                        <i class="fa fa-arrow-right"></i>
+                    </span>
                 </h2>
                 <p class="contenue">
                     Une platforme pour le développement du commerce Malien.
@@ -279,19 +303,76 @@
                     <a href="https://223market.ml">223market.ml</a>
                 </p>
             </div>
+
+            <div>
+                <div class="img_zone">
+                    <img src="res/images/projet/bws.png" alt="interface de bws securite">
+                </div>
+                <h2 class="titre"  data-show="true">
+                    BWS
+                    <span>
+                        <i class="fa fa-arrow-right"></i>
+                    </span>
+                </h2>
+                <p class="contenue">
+                    Une platfrome pour presenter les services de l'entreprise de securite BWS.
+                </p>
+                <p align="center">
+                    <a href="https://bwsecurite.com/">bwsecurite.com</a>
+                </p>
+            </div>
+
+            <div>
+                <div class="img_zone">
+                    <img src="res/images/projet/cavemali.png" alt="interface de cave mali">
+                </div>
+                <h2 class="titre"  data-show="true">
+                    Cave Mali
+                    <span>
+                        <i class="fa fa-arrow-right"></i>
+                    </span>
+                </h2>
+                <p class="contenue">
+                    Une platfrome de vente de boisson.
+                </p>
+                <p align="center">
+                    <a href="https://cavemali.com/">cavemali.com</a>
+                </p>
+            </div>
             
             <div>
                 <div class="img_zone">
-                    <img src="res/images/projet/projet3.png" alt="interface du site Mali mariage">
+                    <img src="res/images/projet/djessyparfuma.png" alt="interface de djessy parfuma">
                 </div>
-                <h2 class="titre">
-                    Mali mariage
+                <h2 class="titre"  data-show="true">
+                    Djessy parfuma
+                    <span>
+                        <i class="fa fa-arrow-right"></i>
+                    </span>
                 </h2>
                 <p class="contenue">
-                    Une platforme régroupant tout les secteurs d'activités (location de voiture, location de bash, service traiteurs, ...) présents dans l'organisation des mariages aux Mali.
+                    Une platfrome de vente de parfum de haut luxe.
                 </p>
                 <p align="center">
-                    <a href="https://mlmariage.wordpress.com/">mlmariage.wordpress.com</a>
+                    <a href="https://djessyparfuma.com/">djessyparfuma.com</a>
+                </p>
+            </div>
+            
+            <div>
+                <div class="img_zone">
+                    <img src="res/images/projet/groupedjessy.png" alt="interface de groupe djessy">
+                </div>
+                <h2 class="titre"  data-show="true">
+                    Djessy Groupe
+                    <span>
+                        <i class="fa fa-arrow-right"></i>
+                    </span>
+                </h2>
+                <p class="contenue">
+                    Une platfrome pour presenter l'entreprise Groupe Djessy Sarl.
+                </p>
+                <p align="center">
+                    <a href="https://groupedjessy.com/">groupedjessy.com</a>
                 </p>
             </div>
             
@@ -299,8 +380,11 @@
                 <div class="img_zone">
                     <img src="res/images/projet/projet4.png" alt="interface du site golira">
                 </div>
-                <h2 class="titre">
+                <h2 class="titre"  data-show="true">
                     Golira
+                    <span>
+                        <i class="fa fa-arrow-right"></i>
+                    </span>
                 </h2>
                 <p class="contenue">
                     Une platfrome de démande et d'offre d'emploies dans tout les secteurs d'activités au Mali.
@@ -311,8 +395,11 @@
                 <div class="img_zone">
                     <img src="res/images/projet/projet5.png" alt="interface du site GBS Sarl">
                 </div>
-                <h2 class="titre">
+                <h2 class="titre"  data-show="true">
                     GBS Sarl
+                    <span>
+                        <i class="fa fa-arrow-right"></i>
+                    </span>
                 </h2>
                 <p class="contenue">
                     Une platfrome présentant l'entreprise d'architecture 'GBS Sarl'. Situé à Korofina Nord.
@@ -323,8 +410,11 @@
                 <div class="img_zone">
                     <img src="res/images/projet/projet6.png" alt="interface du site Ml Sugu">
                 </div>
-                <h2 class="titre">
+                <h2 class="titre"  data-show="true">
                     Ml Sugu
+                    <span>
+                        <i class="fa fa-arrow-right"></i>
+                    </span>
                 </h2>
                 <p class="contenue">
                     Une platfrome d'E-commerce Malienne en partenaria avec des boutiques Turques.
@@ -335,8 +425,11 @@
                 <div class="img_zone">
                     <img src="res/images/projet/projet7.png" alt="interface du site 223 Event">
                 </div>
-                <h2 class="titre">
+                <h2 class="titre"  data-show="true">
                     223 Event
+                    <span>
+                        <i class="fa fa-arrow-right"></i>
+                    </span>
                 </h2>
                 <p class="contenue">
                     Une platfrome d'évènements au mali permetant d'acheter ses tickets en ligne (tickets de cinema, match sportif, concert, ...).
@@ -347,11 +440,32 @@
                 <div class="img_zone">
                     <img src="res/images/projet/projet8.png" alt="interface du site The bro's market">
                 </div>
-                <h2 class="titre">
+                <h2 class="titre"  data-show="true">
                     The bro's Market
+                    <span>
+                        <i class="fa fa-arrow-right"></i>
+                    </span>
                 </h2>
                 <p class="contenue">
                     Une platfrome de commerce pour le compte de l'entreprise "The bro's Market".
+                </p>
+            </div>
+
+            <div>
+                <div class="img_zone">
+                    <img src="res/images/projet/projet3.png" alt="interface du site Mali mariage">
+                </div>
+                <h2 class="titre"  data-show="true">
+                    Mali mariage
+                    <span>
+                        <i class="fa fa-arrow-right"></i>
+                    </span>
+                </h2>
+                <p class="contenue">
+                    Une platforme régroupant tout les secteurs d'activités (location de voiture, location de bash, service traiteurs, ...) présents dans l'organisation des mariages aux Mali.
+                </p>
+                <p align="center">
+                    <a href="https://mlmariage.wordpress.com/">mlmariage.wordpress.com</a>
                 </p>
             </div>
             
