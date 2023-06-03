@@ -14,7 +14,7 @@
     <link rel="apple-touch-icon" href="res/images/younouss.png">
 
     <link rel="stylesheet" href="lib/css/fontawesome/css/all.css">
-    <link rel="stylesheet" href="style/css/index.css">
+    <link rel="stylesheet" href="style/css/index.css?v1">
     <link rel="stylesheet" href="style/css/contact.css">
     <link rel="stylesheet" href="style/css/keyfranes.css">
     <script src="lib/js/jquery-3.3.1.min.js"></script>
@@ -536,6 +536,6 @@
         <span>Nuit</span>
     </div>
 
-    <script src="style/js/index.js"></script>
+    <script src="style/js/index.js?v1"></script>
 </body>
 </html>
