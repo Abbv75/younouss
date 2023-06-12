@@ -262,7 +262,7 @@
                     Une platforme pour la vente, l'achat, la location de maisons, appartements et térrains dans tout le Mali.
                 </p>
                 <p align="center">
-                    <a href="https://mamaison223.ml">mamaison223.ml</a>
+                    <a href="https://mamaison223.ml" target="_blank">mamaison223.ml</a>
                 </p>
             </div>
 
@@ -280,7 +280,7 @@
                     Une platfrome De gestions de stock pouvant gerer toute taille de boutique.
                 </p>
                 <p align="center">
-                    <a href="https://easymanagment.com/">easymanagment.com</a>
+                    <a href="https://easymanagment.com/" target="_blank">easymanagment.com</a>
                 </p>
             </div>
             
@@ -300,7 +300,7 @@
                     "Chaque commercant a droit à un site"
                 </p>
                 <p align="center">
-                    <a href="https://223market.ml">223market.ml</a>
+                    <a href="https://223market.ml" target="_blank">223market.ml</a>
                 </p>
             </div>
 
@@ -318,7 +318,7 @@
                     Une platfrome pour presenter les services de l'entreprise de securite BWS.
                 </p>
                 <p align="center">
-                    <a href="https://bwsecurite.com/">bwsecurite.com</a>
+                    <a href="https://bwsecurite.com/" target="_blank">bwsecurite.com</a>
                 </p>
             </div>
 
@@ -336,7 +336,7 @@
                     Une platfrome de vente de boisson.
                 </p>
                 <p align="center">
-                    <a href="https://cavemali.com/">cavemali.com</a>
+                    <a href="https://cavemali.com/" target="_blank">cavemali.com</a>
                 </p>
             </div>
             
@@ -354,7 +354,7 @@
                     Une platfrome de vente de parfum de haut luxe.
                 </p>
                 <p align="center">
-                    <a href="https://djessyparfuma.com/">djessyparfuma.com</a>
+                    <a href="https://djessyparfuma.com/" target="_blank">djessyparfuma.com</a>
                 </p>
             </div>
             
@@ -372,7 +372,7 @@
                     Une platfrome pour presenter l'entreprise Groupe Djessy Sarl.
                 </p>
                 <p align="center">
-                    <a href="https://groupedjessy.com/">groupedjessy.com</a>
+                    <a href="https://groupedjessy.com/" target="_blank">groupedjessy.com</a>
                 </p>
             </div>
             
@@ -465,7 +465,7 @@
                     Une platforme régroupant tout les secteurs d'activités (location de voiture, location de bash, service traiteurs, ...) présents dans l'organisation des mariages aux Mali.
                 </p>
                 <p align="center">
-                    <a href="https://mlmariage.wordpress.com/">mlmariage.wordpress.com</a>
+                    <a href="https://mlmariage.wordpress.com/" target="_blank">mlmariage.wordpress.com</a>
                 </p>
             </div>
             
