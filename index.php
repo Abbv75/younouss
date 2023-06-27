@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,14 +15,18 @@
     <link rel="apple-touch-icon" href="res/images/younouss.png">
 
     <link rel="stylesheet" href="lib/css/fontawesome/css/all.css">
-    <link rel="stylesheet" href="style/css/index.css?v1">
-    <link rel="stylesheet" href="style/css/contact.css">
+    <link rel="stylesheet" href="style/css/index.css?v2">
+    <link rel="stylesheet" href="style/css/contact.css?v2">
     <link rel="stylesheet" href="style/css/keyfranes.css">
     <script src="lib/js/jquery-3.3.1.min.js"></script>
     <title>Younouss Boré developpeur Web|Mobile|Desktop|Fullstack</title>
 </head>
+
 <body class="day_mode">
-    
+    <div class="rectangle">
+        <div></div>
+    </div>
+
     <div class="main">
 
         <!-- navbar -->
@@ -43,7 +48,7 @@
                     <span>projects</span>
                     <div class="underbar"></div>
                 </a>
-            
+
                 <a href="#contact">
                     <span>contacts</span>
                     <span>contacts</span>
@@ -54,22 +59,24 @@
         <script src="style/js/navbar.js"></script>
 
         <div class="two_parth" id="info">
-            <div>
+            <div class="presentation">
                 <h1>
                     Soyez le Bienvenue sur mon <b class="only">P</b>ortFolio!
                 </h1>
                 <p class="advice margin-top-30">
-                    Pour les personnes ayant une sensibilité accrue à la lumière, j'ai integré un mode nuit pour votre bien être. N'hésitez pas à en faire usage. Bon visionnage!!!
+                    Pour les personnes ayant une sensibilité accrue à la lumière, j'ai integré un mode nuit pour votre
+                    bien être. N'hésitez pas à en faire usage. Bon visionnage!!!
                 </p>
                 <hr>
                 <h2>
-                    Sachez que je suis un developpeur 
+                    Sachez que je suis un developpeur
                 </h2>
                 <h1 class="animated_text">
                     <span></span>
                 </h1>
                 <p class="margin-top-30 color-grey">
-                    Par mon expertise, je serai en mesure de vous offrire le site de vos revês et le designe sera en total compatibilité avec les normes votre entrepise. Et cela quelque soit votre budget!
+                    Par mon expertise, je serai en mesure de vous offrire le site de vos revês et le designe sera en
+                    total compatibilité avec les normes votre entrepise. Et cela quelque soit votre budget!
                     <br>
                     J'espère que mon site vous donnera un avant goût de mes compétances.
                 </p>
@@ -81,6 +88,32 @@
             </div>
 
             <div class="younouss_img">
+                <div id="meteoZone">
+                    <div class="tempsIcone">
+                        <i class="fa fa-thermometer-half"></i>
+                    </div>
+                    <div class="currentMeteo">
+                        <div>
+                            <b>Bamako</b>
+                            <p id="currentDate">Lundi , 26 juin 22:26</p>
+                        </div>
+                        <div class="temperatureZone">
+                            <b id="isDay">
+                                <iclass="fa fa-moon"></i>
+                            </b>
+                            <span id="TempValue">
+                                28 C
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="otherMeteo">
+                        <!-- <div>
+                            <div class="temperature">15 C</div>
+                            <div>25/06</div>
+                        </div> -->
+                    </div>
+                </div>
                 <img src="res/images/younouss.png" alt="Photo de Younouss Boré">
             </div>
         </div>
@@ -90,7 +123,7 @@
                 <h1>
                     <b class="only">C</b>ompétences
                 </h1>
-                
+
                 <div>
                     <p class="element_number">1</p>
                     <h2 class="titre">
@@ -98,7 +131,7 @@
                     </h2>
                     <p>Une grande maîtrise des logiciels de la suite microsoft (Word, Power Point, Excel, Access).</p>
                 </div>
-                
+
                 <div>
                     <p class="element_number">2</p>
                     <h2 class="titre">
@@ -106,7 +139,7 @@
                     </h2>
                     <p>Maîtrise des Language de développement web HTML, CSS, Java Script, PHP, MySQL.</p>
                 </div>
-                
+
                 <div>
                     <p class="element_number">3</p>
                     <h2 class="titre">
@@ -118,7 +151,7 @@
                         Connissance dans les langages de développement Swift, Ruby, C, C++, C#.
                     </p>
                 </div>
-                
+
                 <div>
                     <p class="element_number">4</p>
                     <h2 class="titre">
@@ -128,24 +161,26 @@
                         Maîtrise des FrameWork JQuery, Ajax, Java Swing, Bootstrap, React JS.
                     </p>
                 </div>
-                
+
                 <div>
                     <p class="element_number">5</p>
                     <h2 class="titre">
                         Autres
                     </h2>
                     <p>
-                        Les CMS Wordpress et Wix, System de versionning Git/GitHub, logiciel de creation de maquette Adobe XD, Figma, logiciel de montage photo Photo Shop.
+                        Les CMS Wordpress et Wix, System de versionning Git/GitHub, logiciel de creation de maquette
+                        Adobe XD, Figma, logiciel de montage photo Photo Shop.
                     </p>
                 </div>
-                
+
                 <div>
                     <p class="element_number">6</p>
                     <h2 class="titre">
                         Environnement de développement
                     </h2>
                     <p>
-                        System Linux (distribution Mint), VS Code, Netbeans, Android Studio, Server XAMPP, MySQL Workbench
+                        System Linux (distribution Mint), VS Code, Netbeans, Android Studio, Server XAMPP, MySQL
+                        Workbench
                     </p>
                 </div>
             </div>
@@ -154,7 +189,7 @@
                 <h1>
                     <b class="only">E</b>ducation
                 </h1>
-                
+
                 <div>
                     <p class="element_number">1</p>
                     <h4 class="titre">
@@ -162,7 +197,7 @@
                     </h4>
                     <p>Obtenue apres 9 ans d'études. Du fondamentale au lycée.</p>
                 </div>
-                
+
                 <div>
                     <p class="element_number">2</p>
                     <h2 class="titre">
@@ -170,7 +205,7 @@
                     </h2>
                     <p>Obtenue apres 3 ans d'étude au lycée.</p>
                 </div>
-                
+
                 <div>
                     <p class="element_number">3</p>
                     <h4 class="titre">
@@ -178,7 +213,7 @@
                     </h4>
                     <p>Formation web sur la gestion de l'ergonomie des programmes. Suivie en Russie.</p>
                 </div>
-                
+
                 <div>
                     <p class="element_number">4</p>
                     <h4 class="titre">
@@ -186,7 +221,7 @@
                     </h4>
                     <p>Formation d'introduction au monde du machine learning. Suivit en Russie.</p>
                 </div>
-                
+
                 <div>
                     <p class="element_number">5</p>
                     <h4 class="titre">
@@ -194,7 +229,7 @@
                     </h4>
                     <p>Obtenue apres une formation de langue en Russie.</p>
                 </div>
-                
+
                 <div>
                     <p class="element_number">6</p>
                     <h3 class="titre">
@@ -202,33 +237,35 @@
                     </h3>
                     <p>Obtenue apres Deux ans de cours à l'université.</p>
                 </div>
-                
+
                 <div>
                     <p class="element_number">7</p>
                     <h4 class="titre">
                         Autre <span class="litle_word">|Auto formation</span>
                     </h4>
-                    <p>Attestation sur la platforme solo learn dans diverse technologie de développement. <a href="https://www.sololearn.com/profile/12555632/">Cliquez pour voir mon profil Solo learn</a></p>
+                    <p>Attestation sur la platforme solo learn dans diverse technologie de développement. <a
+                            href="https://www.sololearn.com/profile/12555632/">Cliquez pour voir mon profil Solo
+                            learn</a></p>
                 </div>
-                
+
             </div>
-            
+
             <div id="autre_info" class="div_left">
                 <h1>
                     <b class="only">A</b>utres
                 </h1>
-                
+
                 <div>
                     <p class="element_number">+</p>
                     <h2 class="titre">
                         Langues parlées
                     </h2>
-                    <p>Francais. <a>Très bien  <i class="fa fa-check"></i></a> </p>
-                    <p>Russe. <a>Très Bien  <i class="fa fa-check"></i></a></p>
-                    <p>Bambara. <a>Très Bien  <i class="fa fa-check"></i></a></p>
+                    <p>Francais. <a>Très bien <i class="fa fa-check"></i></a> </p>
+                    <p>Russe. <a>Très Bien <i class="fa fa-check"></i></a></p>
+                    <p>Bambara. <a>Très Bien <i class="fa fa-check"></i></a></p>
                     <p>Anglais. <a>Bien</a></p>
                 </div>
-                
+
                 <div>
                     <p class="element_number">+</p>
                     <h2 class="titre">
@@ -238,7 +275,7 @@
                     <p>-Me cultiver sur l'astronomie</p>
                     <p>-Me cultiver sur les nouvelles technologies (monde du smartphone/pc/...)</p>
                 </div>
-                
+
             </div>
 
         </div>
@@ -259,7 +296,8 @@
                     </span>
                 </h2>
                 <p class="contenue">
-                    Une platforme pour la vente, l'achat, la location de maisons, appartements et térrains dans tout le Mali.
+                    Une platforme pour la vente, l'achat, la location de maisons, appartements et térrains dans tout le
+                    Mali.
                 </p>
                 <p align="center">
                     <a href="https://mamaison223.ml" target="_blank">mamaison223.ml</a>
@@ -270,7 +308,7 @@
                 <div class="img_zone">
                     <img src="res/images/projet/easymanagment.png" alt="interface de easy managment">
                 </div>
-                <h2 class="titre"  data-show="true">
+                <h2 class="titre" data-show="true">
                     Easy Managment
                     <span>
                         <i class="fa fa-arrow-right"></i>
@@ -283,12 +321,12 @@
                     <a href="https://easymanagment.com/" target="_blank">easymanagment.com</a>
                 </p>
             </div>
-            
+
             <div>
                 <div class="img_zone">
                     <img src="res/images/projet/projet2.png" alt="interface du site 223 market">
                 </div>
-                <h2 class="titre"  data-show="true">
+                <h2 class="titre" data-show="true">
                     223 Market
                     <span>
                         <i class="fa fa-arrow-right"></i>
@@ -308,7 +346,7 @@
                 <div class="img_zone">
                     <img src="res/images/projet/bws.png" alt="interface de bws securite">
                 </div>
-                <h2 class="titre"  data-show="true">
+                <h2 class="titre" data-show="true">
                     BWS
                     <span>
                         <i class="fa fa-arrow-right"></i>
@@ -326,7 +364,7 @@
                 <div class="img_zone">
                     <img src="res/images/projet/cavemali.png" alt="interface de cave mali">
                 </div>
-                <h2 class="titre"  data-show="true">
+                <h2 class="titre" data-show="true">
                     Cave Mali
                     <span>
                         <i class="fa fa-arrow-right"></i>
@@ -339,12 +377,12 @@
                     <a href="https://cavemali.com/" target="_blank">cavemali.com</a>
                 </p>
             </div>
-            
+
             <div>
                 <div class="img_zone">
                     <img src="res/images/projet/djessyparfuma.png" alt="interface de djessy parfuma">
                 </div>
-                <h2 class="titre"  data-show="true">
+                <h2 class="titre" data-show="true">
                     Djessy parfuma
                     <span>
                         <i class="fa fa-arrow-right"></i>
@@ -357,12 +395,12 @@
                     <a href="https://djessyparfuma.com/" target="_blank">djessyparfuma.com</a>
                 </p>
             </div>
-            
+
             <div>
                 <div class="img_zone">
                     <img src="res/images/projet/groupedjessy.png" alt="interface de groupe djessy">
                 </div>
-                <h2 class="titre"  data-show="true">
+                <h2 class="titre" data-show="true">
                     Djessy Groupe
                     <span>
                         <i class="fa fa-arrow-right"></i>
@@ -375,12 +413,12 @@
                     <a href="https://groupedjessy.com/" target="_blank">groupedjessy.com</a>
                 </p>
             </div>
-            
+
             <div>
                 <div class="img_zone">
                     <img src="res/images/projet/projet4.png" alt="interface du site golira">
                 </div>
-                <h2 class="titre"  data-show="true">
+                <h2 class="titre" data-show="true">
                     Golira
                     <span>
                         <i class="fa fa-arrow-right"></i>
@@ -390,12 +428,12 @@
                     Une platfrome de démande et d'offre d'emploies dans tout les secteurs d'activités au Mali.
                 </p>
             </div>
-            
+
             <div>
                 <div class="img_zone">
                     <img src="res/images/projet/projet5.png" alt="interface du site GBS Sarl">
                 </div>
-                <h2 class="titre"  data-show="true">
+                <h2 class="titre" data-show="true">
                     GBS Sarl
                     <span>
                         <i class="fa fa-arrow-right"></i>
@@ -405,12 +443,12 @@
                     Une platfrome présentant l'entreprise d'architecture 'GBS Sarl'. Situé à Korofina Nord.
                 </p>
             </div>
-            
+
             <div>
                 <div class="img_zone">
                     <img src="res/images/projet/projet6.png" alt="interface du site Ml Sugu">
                 </div>
-                <h2 class="titre"  data-show="true">
+                <h2 class="titre" data-show="true">
                     Ml Sugu
                     <span>
                         <i class="fa fa-arrow-right"></i>
@@ -420,27 +458,28 @@
                     Une platfrome d'E-commerce Malienne en partenaria avec des boutiques Turques.
                 </p>
             </div>
-            
+
             <div>
                 <div class="img_zone">
                     <img src="res/images/projet/projet7.png" alt="interface du site 223 Event">
                 </div>
-                <h2 class="titre"  data-show="true">
+                <h2 class="titre" data-show="true">
                     223 Event
                     <span>
                         <i class="fa fa-arrow-right"></i>
                     </span>
                 </h2>
                 <p class="contenue">
-                    Une platfrome d'évènements au mali permetant d'acheter ses tickets en ligne (tickets de cinema, match sportif, concert, ...).
+                    Une platfrome d'évènements au mali permetant d'acheter ses tickets en ligne (tickets de cinema,
+                    match sportif, concert, ...).
                 </p>
             </div>
-            
+
             <div>
                 <div class="img_zone">
                     <img src="res/images/projet/projet8.png" alt="interface du site The bro's market">
                 </div>
-                <h2 class="titre"  data-show="true">
+                <h2 class="titre" data-show="true">
                     The bro's Market
                     <span>
                         <i class="fa fa-arrow-right"></i>
@@ -455,25 +494,26 @@
                 <div class="img_zone">
                     <img src="res/images/projet/projet3.png" alt="interface du site Mali mariage">
                 </div>
-                <h2 class="titre"  data-show="true">
+                <h2 class="titre" data-show="true">
                     Mali mariage
                     <span>
                         <i class="fa fa-arrow-right"></i>
                     </span>
                 </h2>
                 <p class="contenue">
-                    Une platforme régroupant tout les secteurs d'activités (location de voiture, location de bash, service traiteurs, ...) présents dans l'organisation des mariages aux Mali.
+                    Une platforme régroupant tout les secteurs d'activités (location de voiture, location de bash,
+                    service traiteurs, ...) présents dans l'organisation des mariages aux Mali.
                 </p>
                 <p align="center">
                     <a href="https://mlmariage.wordpress.com/" target="_blank">mlmariage.wordpress.com</a>
                 </p>
             </div>
-            
+
         </div>
 
         <div class="contact_main_zone" id="contact">
             <h1>Mes contacts</h1>
-            <div>   
+            <div>
                 <div class="contact_icone_zone">
                     <a href="https://www.facebook.com/younouss.bore" title="younouss bore" class="facebook">
                         <i class="fab fa-facebook-f "></i>
@@ -484,26 +524,34 @@
                     <a href="https://www.instagram.com/younouuss.b/" title="younouuss.b" class="instagram">
                         <i class="fab fa-instagram instagram"></i>
                     </a>
-                    <a href="https://www.snapchat.com/add/abbv_75?share_id=QkY5RThE&locale=fr_ML" title="abbv_75" class="snapchat-ghost">
+                    <a href="https://www.snapchat.com/add/abbv_75?share_id=QkY5RThE&locale=fr_ML" title="abbv_75"
+                        class="snapchat-ghost">
                         <i class="fab fa-snapchat-ghost snapchat-ghost"></i>
                     </a>
                     <a href="https://github.com/Abbv75" title="github.com/Abbv75" class="github">
                         <i class="fab fa-github github"></i>
                     </a>
                 </div>
-                <iframe class="google_map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15574.773161124947!2d-7.9438229!3d12.6024543!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb2be1bbec7aa19fb!2sTelecel%20GBS!5e0!3m2!1sfr!2sml!4v1666552182372!5m2!1sfr!2sml" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="google_map"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15574.773161124947!2d-7.9438229!3d12.6024543!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb2be1bbec7aa19fb!2sTelecel%20GBS!5e0!3m2!1sfr!2sml!4v1666552182372!5m2!1sfr!2sml"
+                    width="350" height="300" style="border:0;"
+                ></iframe>
             </div>
             <div>
                 <div>
                     Téléphone: <a href="tel:66035300" style="color: orange;">(+223)66 03 53 00</a>
                     <br>
-                    E-mail: <a href="mailto:bore.younous59@gmail.com" style="color: orange;">bore.younous59@gmail.com</a>
+                    E-mail: <a href="mailto:bore.younous59@gmail.com"
+                        style="color: orange;">bore.younous59@gmail.com</a>
                 </div>
-                <form >
+                <form>
                     <input type="text" id="nom" placeholder="Votre nom">
-                    <input type="email" id="email" value="<?php if(isset($_COOKIE['email'])){echo($_COOKIE['email']);} ?>" placeholder="Votre email" required>
-                    <input type="text" id="tel" value="<?php if(isset($_COOKIE['tel'])){echo($_COOKIE['tel']);} ?>" placeholder="Votre numero" >
-                    <textarea id="message" >Ecrivez moi pour tout besoins</textarea>
+                    <input type="email" id="email"
+                        value="<?php if(isset($_COOKIE['email'])){echo($_COOKIE['email']);} ?>"
+                        placeholder="Votre email" required>
+                    <input type="text" id="tel" value="<?php if(isset($_COOKIE['tel'])){echo($_COOKIE['tel']);} ?>"
+                        placeholder="Votre numero">
+                    <textarea id="message">Ecrivez moi pour tout besoins</textarea>
                     <button type="submit" id="envoyer">Envoyer</button>
                 </form>
             </div>
@@ -516,10 +564,6 @@
                 Designed by Younouss Boré
             </p>
         </div>
-    </div>
-
-    <div class="rectangle">
-        <div></div>
     </div>
 
     <div class="pop_up">
@@ -536,6 +580,7 @@
         <span>Nuit</span>
     </div>
 
-    <script src="style/js/index.js?v1"></script>
+    <script src="style/js/index.js?v2"></script>
 </body>
+
 </html>

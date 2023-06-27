@@ -38,7 +38,6 @@ h1{
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1;
 }
 .rectangle div{
     width: 200px;
@@ -365,6 +364,11 @@ h1{
     cursor: pointer;
 }
 
+.night_mode #projet > div{
+    box-shadow: 0px 0px 10px rgba(0, 47, 255, 0.589);
+    border: 1px solid white;
+}
+
 .titre[data-show="true"] i, .titre[data-show="false"] i{
     color: black;
     transition: all ease-in .2s;
@@ -398,7 +402,11 @@ h1{
 
 .night_mode{
     background: black;
-    color: rgb(126, 208, 255);
+    color: rgb(2, 108, 170);
+}
+
+.night_mode .color-grey, .night_mode .contenue, .night_mode form input, .night_mode form textarea{
+    color: white;
 }
 
 .night_mode .theme_btn{
@@ -418,4 +426,86 @@ h1{
         margin: 20px;
         text-align: center;
     }
+}
+
+#meteoZone{
+    padding: 10px;
+    background: linear-gradient(45deg, orange 40%, rgb(255, 0, 0) 90%);
+    font-size: 12px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px rgb(155, 155, 155);
+    transition: all ease-in .1s ;
+}
+
+.night_mode #meteoZone{
+    background: linear-gradient(45deg, white 40%, rgb(0, 82, 235) 90%);
+    box-shadow: 0px 10px 15px rgba(0, 132, 255, 0.74);
+    border: 5px white solid;
+    color: black;
+}
+
+#meteoZone:hover{
+    transform: translateY(5px);
+    box-shadow: 0px 10px 15px rgba(155, 155, 155, 0.322);
+}
+
+.night_mode #meteoZone:hover{
+    transform: translateY(5px);
+    box-shadow: 0px 10px 15px rgba(0, 132, 255, 0.322);
+}
+
+#meteoZone b {
+    color:white;
+}
+
+.night_mode #meteoZone b ,.night_mode .otherMeteo .temperature{
+    color:blue;
+}
+
+.tempsIcone{
+    text-align: right;
+    margin: -60px -30px -20px 0;
+    font-size: 60px;
+    color: black;
+}
+
+.night_mode .tempsIcone{
+    color: white;
+}
+
+.currentMeteo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.temperatureZone, .temperatureZone *{
+    font-size: 50px;
+    padding: none;
+}
+
+.otherMeteo{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.486);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.night_mode .otherMeteo{
+    background: rgba(138, 212, 255, 0.486);
+}
+
+.otherMeteo > div{
+    border-right: 1px solid orange;
+    width: 100%;
+    text-align: center;
+}
+
+.otherMeteo > div:last-child{
+    border: none;
+}
+
+.otherMeteo .temperature{
+    color: white;
 }
