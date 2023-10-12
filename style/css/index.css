@@ -260,12 +260,13 @@ h1{
 .btn_nav_zone {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-around;
     margin: 30px 0;
 }
 
 .btn_nav_zone a{
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px 20px;
     background: orange;
     border: 2px solid orange;

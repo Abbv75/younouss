@@ -81,9 +81,18 @@
                     J'espère que mon site vous donnera un avant goût de mes compétances.
                 </p>
                 <div class="btn_nav_zone">
-                    <a href="#competences">Compétences</a>
-                    <a href="#education">Educations</a>
-                    <a href="#autre_info">Autres</a>
+                    <a href="res/documents/Bore Younouss CVpdf.pdf" download="true">
+                        Telecharger le cv
+                        <i class="fa fa-file-pdf"></i>
+                    </a>
+                    <a href="#competences">
+                        Compétences
+                        <i class="fa fa-star"></i>
+                    </a>
+                    <a href="#education">
+                        Educations
+                        <i class="fa fa-graduation-cap"></i>
+                    </a>
                 </div>
             </div>
 
@@ -243,8 +252,7 @@
                     <h4 class="titre">
                         Autre <span class="litle_word">|Auto formation</span>
                     </h4>
-                    <p>Attestation sur la platforme solo learn dans diverse technologie de développement. <a
-                            href="https://www.sololearn.com/profile/12555632/">Cliquez pour voir mon profil Solo
+                    <p>Attestation sur la platforme solo learn dans diverse technologie de développement. <a href="https://www.sololearn.com/profile/12555632/">Cliquez pour voir mon profil Solo
                             learn</a></p>
                 </div>
 
@@ -524,33 +532,29 @@
                     <a href="https://www.instagram.com/younouuss.b/" title="younouuss.b" class="instagram">
                         <i class="fab fa-instagram instagram"></i>
                     </a>
-                    <a href="https://www.snapchat.com/add/abbv_75?share_id=QkY5RThE&locale=fr_ML" title="abbv_75"
-                        class="snapchat-ghost">
+                    <a href="https://www.snapchat.com/add/abbv_75?share_id=QkY5RThE&locale=fr_ML" title="abbv_75" class="snapchat-ghost">
                         <i class="fab fa-snapchat-ghost snapchat-ghost"></i>
                     </a>
                     <a href="https://github.com/Abbv75" title="github.com/Abbv75" class="github">
                         <i class="fab fa-github github"></i>
                     </a>
                 </div>
-                <iframe class="google_map"
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15574.773161124947!2d-7.9438229!3d12.6024543!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb2be1bbec7aa19fb!2sTelecel%20GBS!5e0!3m2!1sfr!2sml!4v1666552182372!5m2!1sfr!2sml"
-                    width="350" height="300" style="border:0;"
-                ></iframe>
+                <iframe class="google_map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15574.773161124947!2d-7.9438229!3d12.6024543!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb2be1bbec7aa19fb!2sTelecel%20GBS!5e0!3m2!1sfr!2sml!4v1666552182372!5m2!1sfr!2sml" width="350" height="300" style="border:0;"></iframe>
             </div>
             <div>
                 <div>
                     Téléphone: <a href="tel:66035300" style="color: orange;">(+223)66 03 53 00</a>
                     <br>
-                    E-mail: <a href="mailto:bore.younous59@gmail.com"
-                        style="color: orange;">bore.younous59@gmail.com</a>
+                    E-mail: <a href="mailto:bore.younous59@gmail.com" style="color: orange;">bore.younous59@gmail.com</a>
                 </div>
                 <form>
                     <input type="text" id="nom" placeholder="Votre nom">
-                    <input type="email" id="email"
-                        value="<?php if(isset($_COOKIE['email'])){echo($_COOKIE['email']);} ?>"
-                        placeholder="Votre email" required>
-                    <input type="text" id="tel" value="<?php if(isset($_COOKIE['tel'])){echo($_COOKIE['tel']);} ?>"
-                        placeholder="Votre numero">
+                    <input type="email" id="email" value="<?php if (isset($_COOKIE['email'])) {
+                                                                echo ($_COOKIE['email']);
+                                                            } ?>" placeholder="Votre email" required>
+                    <input type="text" id="tel" value="<?php if (isset($_COOKIE['tel'])) {
+                                                            echo ($_COOKIE['tel']);
+                                                        } ?>" placeholder="Votre numero">
                     <textarea id="message">Ecrivez moi pour tout besoins</textarea>
                     <button type="submit" id="envoyer">Envoyer</button>
                 </form>
